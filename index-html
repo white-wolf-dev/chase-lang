@@ -1,7 +1,3 @@
-
-### README.html (HTML)
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,61 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chase Programming Language</title>
     <style>
+        /* Estilos CSS aquí */
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
         }
-        h1, h2 {
-            color: #007bff;
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
         }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        code {
-            font-family: Consolas, monospace;
-            background-color: #f8f9fa;
-            padding: 2px 4px;
-            border: 1px solid #ced4da;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #f8f9fa;
+        nav {
+            background-color: #0056b3;
+            color: #fff;
             padding: 10px;
-            border: 1px solid #ced4da;
-            border-radius: 4px;
-            overflow-x: auto;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
-    <h1>Chase Programming Language</h1>
-    
-    <p>Chase is a modern, high-level programming language designed for simplicity, performance, and versatility. It combines powerful features with a clean and intuitive syntax, making it ideal for a wide range of applications, from system programming to web development.</p>
-    
-    <h2>Features</h2>
-    <ul>
-        <li><strong>Simplicity</strong>: Chase aims to be easy to learn and use, with a minimalistic syntax that reduces complexity and boilerplate code.</li>
-        <li><strong>Performance</strong>: Built with performance in mind, Chase compiles to efficient machine code, delivering fast execution times.</li>
-        <li><strong>Expressiveness</strong>: With support for modern programming paradigms such as object-oriented and functional programming, Chase enables developers to write expressive and concise code.</li>
-        <li><strong>Safety</strong>: Chase includes built-in safety features to help prevent common programming errors, such as null pointer dereferences and buffer overflows.</li>
-        <li><strong>Versatility</strong>: Whether you're building command-line utilities, web servers, or graphical applications, Chase provides the tools and libraries you need to get the job done.</li>
-    </ul>
-    
-    <h2>Getting Started</h2>
-    <p>To start using Chase, simply download the compiler and follow the installation instructions in the <a href="#">documentation</a>:</p>
-    <pre><code> wget https://example.com/chase-compiler.tar.gz
- tar -xzf chase-compiler.tar.gz
- cd chase-compiler
- ./configure
- make
- sudo make install</code></pre>
-    
-    <h2>Contributing</h2>
-    <p>We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your help is greatly appreciated. Please read our <a href="CONTRIBUTING.md">contributing guidelines</a> for more information on how to get started.</p>
-    
-    <h2>License</h2>
-    <p>Chase is open-source software licensed under the <a href="LICENSE">Chase Open License</a>. Feel free to use, modify, and distribute it according to the terms of the license.</p>
+    <header>
+        <h1>Chase Programming Language</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#features">Features</a> |
+        <a href="#download">Download</a> |
+        <a href="#documentation">Documentation</a>
+    </nav>
+    <section id="about">
+        <h2>About Chase</h2>
+        <p>Introduce aquí información sobre el lenguaje Chase y su propósito.</p>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <!-- Añade más características aquí -->
+        </ul>
+    </section>
+    <section id="download">
+        <h2>Download Chase</h2>
+        <p>Descarga el compilador y otras herramientas de Chase:</p>
+        <a href="link_to_chase_compiler" class="button">Download Chase Compiler</a>
+        <a href="link_to_chase_docs" class="button">Download Documentation</a>
+        <!-- Añade más botones de descarga si es necesario -->
+    </section>
+    <section id="documentation">
+        <h2>Documentation</h2>
+        <p>Enlace a la documentación oficial de Chase y otros recursos útiles.</p>
+    </section>
 </body>
 </html>
